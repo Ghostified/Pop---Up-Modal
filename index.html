@@ -8,14 +8,16 @@
 </head>
 <body>
   <div class="container">
-    <button type="submit" class="btn">Submit</button>
-    <div class="popUp">
+    <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+    <div class="popup" id="popup">
       <img src="images/404-tick.png" >
       <h2>Thank You!</h2>
-      <p>Your details have been successfully submitted</p>
-      <button type="button">OK</button>
+      <p>Your details have been successfully submitted. Thanks!</p>
+      <button type="button" onclick="closePopup()">OK</button>
     </div>
   </div>
   
+  <script src="scriupt.js">
+  </script>
 </body>
 </html>
