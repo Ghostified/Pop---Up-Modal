@@ -3,21 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pop Up Modal</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="styles.css">
+  <title>Branson</title>
 </head>
 <body>
-  <div class="container">
-    <button type="submit" class="btn" onclick="openPopup()">Submit</button>
-    <div class="popup" id="popup">
-      <img src="images/404-tick.png" >
-      <h2>Thank You!</h2>
-      <p>Your details have been successfully submitted. Thanks!</p>
-      <button type="button" onclick="closePopup()">OK</button>
+  <div class="wrapper">
+    <nav class="nav">
+      <div>
+        <p>MY LOGO .</p>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html" class="active-link">Home</a></li>
+          <li><a href="#" class="nav-items">Blog</a></li>
+          <li><a href="#" class="nav-items">Services</a></li>
+          <li><a href="#" class="nav-items">About</a></li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="btn" id="loginButton">Sign In</button>
+        <button class="btn" id="registerBtn">Sign Up</button>
+      </div>
+      <div class="nav-menu-button">
+        <i class="bx bx-menu">
+      </div>
+    </nav>
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+      <div class="popup" id="popup">
+        <img src="images/404-tick.png" >
+        <h2>Thank You!</h2>
+        <p>Your details have been successfully submitted. Thanks!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
     </div>
+    
+    <script src="scriupt.js">
+    </script>
   </div>
-  
-  <script src="scriupt.js">
-  </script>
 </body>
 </html>
