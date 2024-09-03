@@ -60,13 +60,83 @@ body{
   border: none;
   cursor: pointer;
   border-radius: 30px;
-  background: #0077bd;
-  background: rgba(6, 4, 134, 0.3);
-
+  background: #11cbe4;
+  background: rgba(178, 217, 222, 0.3);
+  transition: .3s ease;;
+}
+.btn:hover {
+  background: rgba(178, 217, 222, 0.3);
+}
+#registerBtn{
+  margin-left:  15px;
+}
+.btn.white-btn{
+  background: rgba(0, 119, 189,0.9);
+  background: #41b0b0;
+}
+.btn.btn.white-btn:hover{
+  background: rgba(178, 217, 222, 0.3);
+}
+.nav-menu-btn{
+  display: none;
+}
+.form-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 512px;
+  height: 420px;
+  overflow: hidden;
+  z-index: 2;
+}
+.register-container{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: .5s ease-in-out ;
+}
+.top span{
+  color: #00ffff;
+  font-size: small;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.top span a{
+  font-weight: 500;
+  color: #00ffff;
+  margin-left: 5px;
+}
+header{
+  color: #00ffff;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 30px 0;
 }
 
+.two-forms{
+  display: flex;
+  gap: 10px;
+}
+.input-field{
+  font: 15px;
+  background: rgba(178, 217, 222, 0.3);
+  color:#00ffff;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px 0 45px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  transition: .2s ease;
+}
+.input-field:hover, .input-field:focus{
+  background: rgba(178, 217, 222, 0.35);
 
-
+}
+::-webkit-input-placeholder{
+  color: #00ffff;
+}
 
 
 
