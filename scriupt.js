@@ -26,14 +26,17 @@ function register()  {
 
 function myMenuFunction(){
   var i = document.getElementById("navMenu");
+  console.log(i)
 
 
-  if(i.className === "navMenu"){
+  if(i.className === "nav-menu"){
     i.className  += " responsive";
   } else {
-    i.className = "nav-menu"
+    i.className = "nav-menu";
   }
 }
+console.log(myMenuFunction())
+
 
 // let popup = document.getElementById("popup");
 

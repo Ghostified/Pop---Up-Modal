@@ -197,14 +197,14 @@ header{
   }
   .nav-menu{
     position: absolute;
-    top:100px;
+    top:-800px;
     display: flex;
     justify-content: center;
     background: rgba(178, 217, 222, 0.1);
     width: 100%;
     height: 90vh;
     backdrop-filter: blur(20px);
-    transition: .3s ;
+    transition: .3s;
   }
   .nav-menu ul{
     flex-direction: column;
@@ -225,6 +225,24 @@ header{
   .nav-menu-btn i:hover{
     background: rgba(178, 217, 222, 0.18);
   }
+}
+@media only screen and (max-width: 540px) {
+  .wrapper{
+    min-height: 100vh;
+  }
+  .form-box{
+    width: 100%;
+    height: 5000px;
+  }
+  .register-container, .login-container{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .register-container .two-forms{
+    flex-direction: column;
+    gap: 0;
+  }
+  
 }
 
 
