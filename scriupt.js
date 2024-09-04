@@ -24,6 +24,17 @@ function register()  {
 
 }
 
+function myMenuFunction(){
+  var i = document.getElementById("navMenu");
+
+
+  if(i.className === "navMenu"){
+    i.className  += " responsive";
+  } else {
+    i.className = "nav-menu"
+  }
+}
+
 // let popup = document.getElementById("popup");
 
 // function openPopup(){

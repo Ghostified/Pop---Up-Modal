@@ -31,7 +31,6 @@ body{
 }
 .nav-logo p{
   color: #00ffff;
-  color: #FF7F50;
   font-size: 25px;
   font-weight: 600;
 }
@@ -46,7 +45,6 @@ body{
   text-decoration: none;
   font-weight: 600;
   color: #00ffff;
-  color: #FF7F50;
   padding-bottom: 15px;
   margin: 15px;
 }
@@ -146,7 +144,7 @@ header{
 
 }
 ::-webkit-input-placeholder{
-  color: #ffff;
+  color: #00ffff;
 }
 .input-box i{
   position: relative;
@@ -189,6 +187,44 @@ header{
 .two label a:hover{
   text-decoration: underline;
 
+}
+@media only screen and (max-width: 786px){
+  .nav-button{
+    display: none;
+  }
+  .nav-menu.responsive{
+    top: 100px;
+  }
+  .nav-menu{
+    position: absolute;
+    top:100px;
+    display: flex;
+    justify-content: center;
+    background: rgba(178, 217, 222, 0.1);
+    width: 100%;
+    height: 90vh;
+    backdrop-filter: blur(20px);
+    transition: .3s ;
+  }
+  .nav-menu ul{
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-menu-btn{
+    display: block;
+  }
+  .nav-menu-btn i{
+    font-size: 25px;
+    color: #00ffff;
+    padding: 10px;
+    background: rgba(178, 217, 222, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 3s;
+  }
+  .nav-menu-btn i:hover{
+    background: rgba(178, 217, 222, 0.18);
+  }
 }
 
 
