@@ -31,6 +31,7 @@ body{
 }
 .nav-logo p{
   color: #00ffff;
+  color: #FF7F50;
   font-size: 25px;
   font-weight: 600;
 }
@@ -43,8 +44,9 @@ body{
 
 .nav-menu ul li .link{
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #00ffff;
+  color: #FF7F50;
   padding-bottom: 15px;
   margin: 15px;
 }
@@ -70,7 +72,7 @@ body{
   margin-left:  15px;
 }
 .btn.white-btn{
-  background: rgba(0, 119, 189,0.9);
+ background: rgba(0, 119, 189,0.9);
   background: #41b0b0;
 }
 .btn.btn.white-btn:hover{
@@ -85,7 +87,7 @@ body{
   align-items: center;
   width: 512px;
   height: 420px;
-  border: 1px solid #00ffff;
+  overflow: hidden;
   z-index: 2;
 }
 .login-container{
@@ -130,7 +132,7 @@ header{
 .input-field{
   font: 15px;
   background: rgba(178, 217, 222, 0.3);
-  color:#00ffff;
+  color: #00ffff;
   height: 50px;
   width: 100%;
   padding: 0 10px 0 45px;
@@ -144,7 +146,7 @@ header{
 
 }
 ::-webkit-input-placeholder{
-  color: #00ffff;
+  color: #ffff;
 }
 .input-box i{
   position: relative;
